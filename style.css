@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 .flex {
@@ -17,7 +18,7 @@ ul {
     justify-content: space-between;
 }
 
-/********** COMMON **********/
+/********** HEADER **********/
 .container {
     height: 50px;
     width: 100%;
@@ -36,4 +37,115 @@ ul {
     margin: 5px 10px;
 }
 
+/********** MAIN **********/
+.section-1 {
+    background-color: #B4D0E7;
+    padding-top: 40px;
+}
+
+.section-jumbo {
+    margin: 0 30px; 
+    position: relative;
+    /* debug  */
+    height: 650px;
+}
+
+.jumbo {
+    width: 40%;
+    position: absolute;
+    bottom: -50px;
+    right: 15px;
+    /* debug  */
+    height: 450px;
+    background-color: goldenrod;
+}
+
+.business-plane {
+    max-width: 1100px;
+    margin: auto; 
+    padding-top: 300px;
+    gap: 25px;
+}
+
+.column {
+    width: calc(100% /3 - (50px / 3));
+    display: flex;
+    align-items: center;
+    /* debug  */
+    background-color: purple;
+    height: 800px;
+}
+
+.section-3 {
+    width: 58%;
+    margin:150px auto;
+    /* debug  */
+    height: 260px;
+    background-color: greenyellow;  
+}
+
+.section-4 {
+    height: 500px;
+    width: 58%;
+    margin: auto;
+    /* debug  */
+    background-color: crimson;
+}
+
+.container-sec5 {
+    width: 80%;
+    max-width: 1100px;
+    margin: auto;  
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding-top: 150px;
+}
+
+.column-operations {
+    height: 450px;
+    width: calc(100% /3 - (50px / 3));
+    /* debug  */
+    background-color: olivedrab;
+}
+
+.section-6 {
+    width: 58%;
+    margin: 150px auto;
+    /* debug  */
+    height: 200px;
+    background-color: violet;
+}
+
+.section-7 {
+    width: 100%;
+    /* debug  */
+    height: 450px;
+    background-color: aquamarine;
+}
+
+.section-8 {
+    width: 100%;
+    /* debug  */
+    height: 220px;
+    background-color: steelblue;
+}
+
+.section-9 {
+    width: 100%;
+    /* debug  */
+    height: 450px;
+    background-color: slategrey;
+}
+
+/********** FOOTER **********/
+.section-10 {
+    width: 100%;
+    /* debug  */
+    height: 400px;
+    background-color: coral;
+}    
 
