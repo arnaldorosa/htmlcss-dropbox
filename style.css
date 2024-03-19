@@ -73,6 +73,11 @@ ul {
     margin-right: 150px;
 }
 
+h1 {
+    margin-left: 55px;
+    font-size: 70px;
+}
+
 h3 {
     font-size: 25px;
 }
@@ -116,9 +121,21 @@ h3 {
     margin-right: 60px;
 }
 
+.link-button {
+    padding: 10px;
+    min-height: 10px; 
+    min-width: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #0061FF;
+    color: white;
+}
+
+
 .text-fix {
     width: 25%;
 }
+
 .text-row {
     width: 40%;
     font-size: 15px;   
@@ -199,14 +216,43 @@ ul i {
     margin-top: 30px;
 }
 
-.section-3 {
-    width: 58%;
-    margin:150px auto;
-    /* debug  */
-    height: 260px;
-    background-color: greenyellow;  
+
+
+
+/********** section-3 **********/
+.tea.-title {
+   padding: 10px;
+   border: 1px solid #4F4F4F;
+   text-align: center;
 }
 
+.margin-sec-3 {
+    margin: 0 200px;
+}
+
+.team-text {
+    line-height: 30px;
+    width: 65%;
+    padding-left: 25px;
+}
+
+
+.p-sec3 {
+    margin-top: 40px;
+}
+
+
+.text-fix {
+    width: 30%;
+}
+
+.h3-sec3 {
+    padding-top: 20px ;
+}
+
+
+
+/********** section-4 **********/
 .section-4 {
     height: 500px;
     width: 58%;
