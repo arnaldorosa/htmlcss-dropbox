@@ -30,13 +30,14 @@ ul {
 }
 
 
-.nav-button {
+.link-button {
     background-color: #0061FF;
     color: white;
     text-align: center;
     padding: 2px;
     min-width: 20px;
 }
+
 
 .special-section {
     width: 100%;
@@ -105,15 +106,21 @@ h3 {
 
 
 
-/********** MAIN - section-1**********/
+/********** MAIN **********/
+/********** section **********/
 .section-1 {
     background-color: #B4D0E7;
     padding-top: 70px;
 }
 
+
+h1 {
+    font-size:50px;
+    margin-left: 60px;
+    padding: 25px 0 25px 0;
+}
+
 .img-jumbo {
-    display: flex;
-    align-content: end;
     width: 50%;
     position: absolute;
     right: 15px;
@@ -121,21 +128,11 @@ h3 {
     margin-right: 60px;
 }
 
-.link-button {
-    padding: 10px;
-    min-height: 10px; 
-    min-width: 25px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    background-color: #0061FF;
-    color: white;
-}
-
-
 .text-fix {
     width: 25%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-
 .text-row {
     width: 40%;
     font-size: 15px;   
@@ -149,14 +146,13 @@ h3 {
 .arrow {
     padding: 40px 0 15px 0;
     font-size: 40px;
-}
+} 
 
 .big-section {
     width: 100%;
     max-width: 1100px;
     margin:100px auto;
 }
-
 
 /********** section-2 **********/
 .business-plane {
@@ -254,67 +250,275 @@ ul i {
 
 /********** section-4 **********/
 .section-4 {
-    height: 500px;
     width: 58%;
-    margin: auto;
-    /* debug  */
-    background-color: crimson;
+    margin: 150px auto;
 }
 
+.img-sec4 {
+    width: 60%;
+}
+
+.find-partner {
+    width: 40%;
+    padding: 35px;
+}
+
+.p-sec4 {
+    padding-top: 15px;
+    font-size: 17px;
+} 
+
+.white-but {
+    padding: 10px;
+    border: 1px solid #4F4F4F;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.white-but a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/********** section-5 **********/
+.title-sec5 {
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
 .container-sec5 {
-    width: 80%;
     max-width: 1100px;
     margin: auto;  
 }
-
 .flex-wrap {
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
-    padding-top: 150px;
+    padding-top: 30px;
 }
-
 .column-operations {
     height: 450px;
-    width: calc(100% /3 - (50px / 3));
-    /* debug  */
-    background-color: olivedrab;
+    width: calc(100% /3 - (50px / 3)); 
+}
+.section-5 p {
+    padding-top: 20px;
 }
 
+
+/********** section-6 **********/
 .section-6 {
     width: 58%;
-    margin: 150px auto;
-    /* debug  */
-    height: 200px;
-    background-color: violet;
+    margin: 150px 240px;
 }
 
+
+/********** section-7 **********/
 .section-7 {
-    width: 100%;
-    /* debug  */
-    height: 450px;
-    background-color: aquamarine;
+    width: 100%; 
 }
 
+.sponsor-container {
+    display: flex;
+}
+
+.container-card {
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img {
+    width: 40%;
+    filter: invert(100%); 
+}
+
+.card-1 {
+    background-color: #A2D39B;
+    border: 20px solid #D1E9CD;
+}
+
+.card-2 {
+    background-color:#61082B ;
+}
+
+.card-3 {
+    background-color: #0093CE;
+}
+
+.card-4 {
+    background-color: #FF1C1C;
+}
+
+.card-5 {
+    background-color: #D5001F;
+}
+
+.card-6 {
+    background-color: #B4D0E7;
+}
+
+.card-7 {
+    background-color: #0D2481;
+    
+}
+
+.card-8 {
+    background-color: #FFD830;
+}
+
+.sponsor-description{
+    overflow-y: scroll;
+    padding:  30px 40px;
+    display: inline-block;
+}
+
+.sponsor-description img {
+    width: 40%;
+}
+
+ .sponsor-hr {
+    width: 20%;
+    margin-top: 20px;
+    border: 1px solid #D5D5D7;
+ }
+
+ .sponsor-description p {
+    margin: 50px 0;
+ }
+
+
+
+
+/********** section-8 **********/
 .section-8 {
     width: 100%;
-    /* debug  */
-    height: 220px;
-    background-color: steelblue;
+    background-color: #B4D0E7;
+    height: 250px;
 }
 
-.section-9 {
-    width: 100%;
-    /* debug  */
-    height: 450px;
-    background-color: slategrey;
+.sec-8-flex {
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 350px;
 }
+
+#h2-sec8 {
+    color: #61082B;
+}
+
+.but-white-large {
+    padding: 10px 30px;
+    background-color: white;
+    height: 50px;
+}
+
+.section-8 a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/********** section-9 **********/
+.section-9 {
+    margin-top: 150px;
+    margin: 150px 350px 150px 350px;
+}
+
+.box-request {
+    padding: 20px 0;
+}
+
+.arrow-request {
+    display: inline-block;
+    vertical-align: middle;
+    
+    font-size: 25px;
+    position: absolute;
+    right: 0;
+}
+
+.box-request i:hover {
+    
+}
+
+.box-request i.arrow-request {
+    display: none;
+    vertical-align: middle;
+    font-size: 25px;
+    position: absolute;
+    right: 0;
+}
+
+.box-request p {
+    padding-top: 50px;
+    display: none;
+}
+
+.hr-sec9 {
+    color: #A0A0A0;
+}
+
+#h2sec9 {
+    padding-bottom: 20px;
+}
+
+
 
 /********** FOOTER **********/
 .section-10 {
     width: 100%;
-    /* debug  */
-    height: 400px;
-    background-color: coral;
-}    
+    background-color: black;
+}
 
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: 50px;
+    padding-top: 30px;
+}
+
+.languages {
+    color: white;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.languages a {
+    color: white;
+    text-decoration: none;
+}
+
+.languages a span {
+    position:absolute;
+    bottom: 55px;
+    left: 80px;
+}
+
+.footer-container ul li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.footer-container ul {
+    list-style: none;
+}
+
+.footer-hr {
+    width: 10%;
+}
+
+.footer-container ul li a {
+    text-decoration: none;
+    color: white;
+}
